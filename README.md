@@ -13,7 +13,7 @@ Along with this, we are also going to know about GestureDetector, initState, Tic
 2. We have three main animations going on here - background animation, a circular dynamic animation and a auto repeating rotating animation. And so, inside the SafeArea widget we have a Stack widget, which we use to stack all these upon one another. <br/>The first element in stack is the background. The second element is a Column widget, which contains the other two animations seperated evenly
 
 3.  <h4>Circular dynamic animation</h4>
-    1.  We are covering everything inside the Center Widget, that has the child of GestureDetector Widget, that has the child of AnimatedContainer Widget.<br/>
+    1.  We are covering everything inside the Center Widget, that has the child of GestureDetector Widget, that has the child of AnimatedContainer Widget.<br/><br/>
     2.  The AnimatedContainer is simply a Container widget with some additional properties (duration and curve) to automatically animated when certain properties change their values. We have designed it as a simple circular button with a Text Widget inside it as a child.<br/>
     3.  We have created a state variable called buttonRadius, that we have set has the value for width and height and which we are going to actually change as per response.<br/>
     4.  This AnimatedContainer is the child of GestureDetector Widget, whose work is to simply detect the numerous gestures that's been done it and do appropriate works based on it.<br/>
